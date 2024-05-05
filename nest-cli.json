@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "types": ["node", "@nestjs/websockets","@nestjs/mapped-types","@nestjs/jwt"]
+  }
+}
